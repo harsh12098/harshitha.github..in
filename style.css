@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.details {
+    text-align: center;
+    color: black;
+    font-size: 19px;
+    margin-top: -15px;
+}
+
+.languages,
+.skills {
+    color: black;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+tr th {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+tr td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.tableclass {
+    padding: 15px;
+}
+
+.imagecontainer {
+    margin-bottom: 10px !important;
+    padding: 0 80px;
+}
+
+.imagecontainer img {
+    width: 250px !important;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+.declarationinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-top: 20px;
+}
+
+.declarationinfo p {
+    font-size: 18px;
+}
+
+.left {
+    height: 193vh;
+    margin-top: -10px;
+}
+
+.left h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 10px 0;
+    background-color: rgb(96, 96, 210);
+}
